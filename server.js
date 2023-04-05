@@ -32,6 +32,7 @@ app.use(function (req, res, next) {
 
 // health endpoint - returns an empty array
 app.get('/', (req, res) => {
+    var i=1;
     res.json([]);
 });
 
